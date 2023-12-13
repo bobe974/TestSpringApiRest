@@ -10,8 +10,8 @@ import com.etienne.api.repository.EmployeeRepository;
 
 import lombok.Data;
 
-//@Data
-//@Service meme role que @component mais mis a des fin sémentique pour les autre devs
+  @Data
+  @Service //meme role que @component mais mis a des fin sémentique pour les autre devs
 public class EmployeeService {
 
 	@Autowired
